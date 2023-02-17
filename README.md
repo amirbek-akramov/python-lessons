@@ -1,1 +1,3 @@
-This is my first python lesson
+# python lessons
+
+This repository includes codes from "python" lessons
