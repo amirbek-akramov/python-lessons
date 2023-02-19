@@ -219,11 +219,11 @@ _______________________________________________________________________________
 
 
 
-number = float(input("Number: "))
+# number = float(input("Number: "))
 
 
-if number>0:
-    print("Bu sonning ildizi:",number**(1/2))
+# if number>0:
+#    print("Bu sonning ildizi:",number**(1/2))
 
-else: 
-    print('Musbat number kiriting')
+# else: 
+#    print('Musbat number kiriting')
