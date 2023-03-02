@@ -222,3 +222,120 @@ _______________________________________________________________________________
         
 #         print("\nThe programm was stopped!")
     
+
+
+"""
+Practise 1
+
+_______________________________________________________________________________
+"""
+# f_book = "Your favourite book"
+# f_exit = "(Write 'stop' for stopping): "
+# f_input = f_book + f_exit
+
+# while True:
+#     book = input(f_input)
+#     if book == "exit":
+#         break
+
+
+"""
+Practise 2
+
+(1)
+_______________________________________________________________________________
+"""
+# flag = True
+
+
+# while flag:
+#     age = input("How old are you: ")
+    
+#     if age == "exit" or age == "quit":
+#         flag = False
+#         print("Now, you can't buy tickets")
+#     elif int(age) <= 7:
+#         ticket = 2
+#     elif int(age) > 7 and int(age) < 18:
+#         ticket = 3
+#     elif int(age) > 18 and int(age) < 65:
+#         ticket = 10
+#     else:
+#         ticket = 0
+        
+#     if ticket == 0:
+#         print("Ticket is free for you")
+#     else:
+#       print(f"For you ticket costs: {ticket}$")
+            
+
+"""
+Practise 2
+
+(2)
+_______________________________________________________________________________
+"""
+
+
+# while True:
+#     age = input("How old are you: ")
+    
+#     if age == "exit" or age == "quit":
+#         print("Now, you can't buy tickets")
+#         break
+#     elif int(age) <= 7:
+#         ticket = 2
+#     elif int(age) > 7 and int(age) < 18:
+#         ticket = 3
+#     elif int(age) > 18 and int(age) < 65:
+#         ticket = 10
+#     else:
+#         ticket = 0
+        
+#     if ticket == 0:
+#         print("Ticket is free for you")
+#     else:
+#         print(f"For you ticket costs: {ticket}$")
+
+
+"""
+Practise 3
+
+Find the mistake
+
+_______________________________________________________________________________
+"""
+
+"Code with mistakes: "
+
+# savol ="Kiritilgan sonning ildizini qaytaruvchi dastur.\n"
+# savol += "Musbat son kiriting "
+# savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
+
+# while True:
+#     qiymat = input(savol)
+#     if qiymat<0:
+#         continue
+#     elif qiymat=='Exit':
+#         break
+#     else:
+#         ildiz = float(qiymat)**(0.5)
+#         print(f"{qiymat} ning ildizi {ildiz} ga teng")
+        
+        
+"Code without mistakes: "
+
+# savol ="Kiritilgan sonning ildizini qaytaruvchi dastur.\n"
+# savol += "Musbat son kiriting "
+# savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
+
+# while True:
+#     qiymat = str(input(savol))
+#     if qiymat.title()=='Exit':
+#         break
+#     qiymat = int(qiymat)
+#     if qiymat<0:
+#         continue
+#     else:
+#         ildiz = float(qiymat)**(0.5)
+#         print(f"{qiymat} ning ildizi {ildiz} ga teng")
