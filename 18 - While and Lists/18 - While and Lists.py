@@ -14,5 +14,9 @@ while True:
     names.append(name)
     repeat = input("Any more (yes/no): ")
     n+=1
-    if repeat == 'no': 
+    if repeat != 'yes':
         break
+    
+print("Friends list: ")
+for friend in names:
+    print(friend.title())
