@@ -227,7 +227,11 @@ _______________________________________________________________________________
 #         max = z
 #     return max
 
-# print(biggest(99,544,16))
+# x = input("X: ")
+# y = input("Y: ")
+# z = input("Z: ")
+
+# print(f"The biggest number ({x}{y}{z}):",biggest(x,y,z))
 
         
 
