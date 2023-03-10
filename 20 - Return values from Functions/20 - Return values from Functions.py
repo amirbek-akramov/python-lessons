@@ -227,12 +227,7 @@ _______________________________________________________________________________
 #         max = z
 #     return max
 
-# x = input("X: ")
-# y = input("Y: ")
-# z = input("Z: ")
-
-# print(f"The biggest number ({x},{y},{z}):",biggest(x,y,z))
-
+# print(biggest(99,544,16))
 
         
 
@@ -245,3 +240,61 @@ Practise 4
 _______________________________________________________________________________
 """
 
+# def circle_info(radius, pi = 3.14159):    
+#     circle = {
+#         "radius":radius,
+#         "diametr":radius*2,
+#         "peremetr": 2 * radius * pi,
+#         "surface": pi * radius ** 2,
+#     }
+#     return circle
+
+# radius = int(input("Radius: "))
+
+# circle_info(radius)
+
+
+"""
+Practise 5
+
+_______________________________________________________________________________
+"""
+
+
+# def tub_sonlar_top(min, max):
+#     tub_sonlar = []
+#     for n in range(min, max + 1):
+#         tub = True
+#         if n == 1:
+#             tub = False
+#         elif n == 2:
+#             tub = True
+#         else:
+#             for x in range(2, n):
+#                 if n % x == 0:
+#                     tub = False
+#         if tub:
+#             tub_sonlar.append(n)
+
+#     return tub_sonlar
+
+# print(tub_sonlar_top(0, 1000))
+
+
+"""
+Practise 6
+
+_______________________________________________________________________________
+"""
+
+# def fibonacci(n):
+#     sonlar = []
+#     for x in range(n):
+#         if x == 0 or x == 1:
+#             sonlar.append(1)
+#         else:
+#             sonlar.append(sonlar[x - 1] + sonlar[x - 2])
+#     return sonlar
+
+
+# print(fibonacci(10))
