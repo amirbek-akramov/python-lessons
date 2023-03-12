@@ -3,6 +3,7 @@ Mini game
 """
 import random as rm
 
+# Some questions for player
 
 print("Write some notes for confortable playing!")
 HARDNESS = input("Level (easy, normal, hard, titanium or unplayible): ").lower()
@@ -11,7 +12,7 @@ CHANSES = 0
 
 print("Random number is active!")
 
-
+# Choosing the hardness of level
 
 if HARDNESS == "easy":
     LEVEL = 25
@@ -31,6 +32,8 @@ elif HARDNESS == "unplayible":
 else:
     print("This level isn't founded!")
 
+# Player vs computer (main game)
+    
 number = rm.randint(0, RANDOM_NUMBERS+RANDOM_NUMBERS+LEVEL)
 
 while True:
@@ -53,6 +56,8 @@ while True:
         CHANSES -= 1
         break
 
+# Computer vs player
+        
 COMP_WANT = input("Let's play with computer (yes/no): ")
 
 if COMP_WANT.lower() == "yes":
