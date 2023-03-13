@@ -4,6 +4,10 @@ GitHub: https://github.com/amirbek-akramov/python-lessons
 sana: 11/03/2023
 """
 
+"""
+!!! Module need to be in one file with main python file !!!
+"""
+
 # import auto_info_collecter
 # You can use 'as' for reducting the name
 # import auto_info_collecter as aic
