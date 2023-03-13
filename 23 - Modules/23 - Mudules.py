@@ -79,7 +79,7 @@ _______________________________________________________________________________
 """
 Mini game
 """
-import random as rm
+# import random as rm
 
 
 # randint()
