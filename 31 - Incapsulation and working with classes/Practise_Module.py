@@ -70,7 +70,7 @@ class Student(Person):
     @classmethod
     def get_hobby(cls):
         """Student's hobby"""
-        return .__hobby
+        return cls.__hobby
     
     def set_hobby(self,hobby):
         """Changing the hobby of student"""
