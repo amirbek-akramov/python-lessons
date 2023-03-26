@@ -68,9 +68,9 @@ class Student(Person):
         Student.__student_amount += 1
         
     @classmethod
-    def get_hobby(self):
+    def get_hobby(cls):
         """Student's hobby"""
-        return self.__hobby
+        return .__hobby
     
     def set_hobby(self,hobby):
         """Changing the hobby of student"""
