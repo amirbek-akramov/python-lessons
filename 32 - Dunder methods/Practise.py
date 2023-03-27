@@ -50,22 +50,3 @@ physics()
 # print(student4)
 # print(student5)
 
-
-# Practise
-"""
-# 1. Avvalga darslarda yaratilgan obyektlarga (Shaxs, Talaba) turli dunder metodlarni qo'shishni mashq qiling. 
-#     Obyekt haqida ma'lumot (__rerp__)
-#     Talabalarni bosqichi bo'yicha solishtirish (__lt__,__eg__ va hokazo)
-
-
-# 2. Fan degan yangi klass yarating. Fan obyetklari tarkibida shu fanga yozilgan talabalarning ro'yxati saqlansin. Buning uchun Fanga add_student(), __getitem__, __setitem__, __len__ kabi metodlarni qo'shing.
-
-
-# 3. Fanga qo'shish + operatori yordamida talaba qo'shish metodini yozing
-
-
-# 4. Minus (-) operatori yordamida fandan talaba olib tashlash metodini yozing (bunda talabaning passport raqami yoki ID raqami bo'yicha topib, olib tashlash mumkin)
-
-
-# 5. Fan obyektlarini chaqiriladigan qiling (masalan, fizika(), yoki fizika(talaba1)). Bu metodlarni o'zingiz istagandek talqin qiling
-"""
