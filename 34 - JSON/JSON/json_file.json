@@ -1,0 +1,1 @@
+{"outer_list": [{"name": "John", "age": 25}, {"name": "Jane", "age": 30}, {"name": "Bob", "age": 40}, {"inner_dict": {"inner_list": [{"name": "Alice", "age": 35}, {"name": "David", "age": 45}, {"name": "Eve", "age": 50}]}}]}
