@@ -1,0 +1,6 @@
+{
+    "name": "Chicken Curry",
+    "cuisine": ["Indian", "Asian"],
+    "ingredients": ["chicken", "onion", "tomato", "ginger", "garlic", "spices"],
+    "directions": ["Heat oil in a pan.", "Add onion, ginger, and garlic.", "Add chicken and cook until browned.", "Add tomato and spices.", "Simmer for 20 minutes.", "Serve hot with rice."]
+}

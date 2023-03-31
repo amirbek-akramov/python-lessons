@@ -1,0 +1,7 @@
+{
+    "name": "iPhone 12",
+    "brand": "Apple",
+    "price": 999,
+    "color": ["Black", "White", "Blue", "Red"],
+    "description": "The latest iPhone with A14 Bionic chip and 5G support."
+}

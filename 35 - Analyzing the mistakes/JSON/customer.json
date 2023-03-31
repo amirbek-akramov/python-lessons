@@ -1,0 +1,11 @@
+{
+    "name": "Mary Smith",
+    "age": 28,
+    "email": "marysmith@example.com",
+    "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": 10001
+    }
+}
