@@ -83,7 +83,34 @@ class Student(Person):
         """Returns id of student"""
         return self.ID
 
+    def get_location(self):
+        return self.location
+
     def get_info(self):
         """Returns information about student"""
         return f"Student's information: \n Name: {self.name.title()} \n Surname: {self.surname.title()} \n Age: {self.get_age()} \n Id: {self.ID} \n Level: {self.level} \n Hobby: {self.__hobby} \n\n {self.location.get_location()}"
-    
+
+
+student1_location = Location(34, "Karvon", "Bog'bon", "Uzbekistan")
+student1 = Student("Jack", "Jakeson", 1999, "FFBB0001133", False, "Writing", 1.0, student1_location)
+
+student2_location = Location("2468", "Elm St", "Villagetown", "USA")
+student2 = Student("John", "Doe", 2000, "123456789", True, "Reading", 1.1, student2_location)
+
+student3_location = Location("1357", "Maple Ave", "Citytown", "Canada")
+student3 = Student("Jane", "Smith", 1999, "987654321", False, "Painting", 1.2, student3_location)
+
+student4_location = Location("3691", "Pine St", "Beachtown", "Australia")
+student4 = Student("Tom", "Jones", 2001, "555555555", True, "Playing sports", 1.3, student4_location)
+
+
+if __name__ == "__main__":
+    print(student1.get_info(), end="\n\n\n\n")
+    print(student2.get_info(), end="\n\n\n\n")
+    print(student3.get_info(), end="\n\n\n\n")
+    print(student4.get_info())
+
+    print(student1_location.get_location())
+    print(student2_location.get_location())
+    print(student3_location.get_location())
+    print(student4_location.get_location())
